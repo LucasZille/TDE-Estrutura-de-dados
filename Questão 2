@@ -1,0 +1,7 @@
+num = int(input("Digite sua nota: "))
+
+while num < 1 or num > 10:
+  print(num, " **Apenas são aceitas notas entre 1 e 10.")
+  num = int(input("Adicione a sua nota: "))
+else:
+  print("A nota digitada foi:", num)
