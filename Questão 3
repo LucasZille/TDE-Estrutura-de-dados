@@ -1,0 +1,5 @@
+fahrenheit = float(input("Digite uma temperatura em Fahrenheit para ser convertida em Celsius: "))
+
+celsius = (fahrenheit - 32) * 5/9
+
+print(f"{fahrenheit} em Fahrenheit equivale a {round(celsius, 2)} em Celsius.")
