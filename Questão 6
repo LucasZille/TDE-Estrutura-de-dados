@@ -1,0 +1,9 @@
+idade = []
+altura = []
+for i in range(5):
+    idade.append(int(input("Digite a idade da pessoa: ")))
+    altura.append(float(input("Digite a altura da pessoa: ")))
+idade.reverse()
+altura.reverse()
+print("Idade mostrada de trás pra frente: ", idade)
+print("Altura mostrada de trás pra frente: ", altura)
